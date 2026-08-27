@@ -2,7 +2,7 @@
 
 **Senior Software Engineer | Golang | Cloud Native**
 
-Welcome to my GitHub! I'm a passionate **software engineer** with **9 years** of experience in building distributed scalable applications using Golang.
+🚀 Welcome to my GitHub! I'm a passionate **software engineer** with **9 years** of experience in building distributed scalable applications using Golang.
 
 ---
 
@@ -23,32 +23,31 @@ Welcome to my GitHub! I'm a passionate **software engineer** with **9 years** of
 
 ## 📚 Open-Source Contribution
 
-### 📦 [Fission](https://github.com/fission/fission)
+### 📦 [Fission](https://github.com/fission/fission) — [60+ PRs merged](https://github.com/fission/fission/pulls?q=is%3Apr+author%3Ashubham-bansal96+is%3Aclosed+sort%3Acomments-desc)
 **Fission is an open-source, Kubernetes-native serverless framework that simplifies the deployment of functions and applications on Kubernetes.**
-- Key feature 1
-- Key feature 2
+- Implemented **multi-namespace support** across executor, builder manager, logger, and kube watcher — enabling namespace-scoped informers and RBAC for isolated multi-tenant deployments
+- Integrated **OpenTelemetry** tracing and metrics into executor and MQ trigger connectors (e.g. Kafka message lag metric)
+- Improved **security posture** — Alpine upgrades, GHCR migration, scoped RBAC roles for function/builder namespaces, and authentication fixes
+- Enhanced **Helm chart releases** — version bumps, dependency upgrades, Prometheus integration, and fixes for upgrade-path issues
+- Fixed critical bugs: package stuck in pending state, namespace resolution, idle-timeout pod termination, configmap-triggered pod restarts, and CLI robustness improvements
+- Strengthened **CI/CD pipeline** — backward-compatibility test jobs, integration test fixes, and cleanup improvements
 
-## 📚 Open-Source Projects
+## 📚 Personal Projects
 
 ### 📦 [Project Name](https://github.com/shubham-bansal96/project-link)
 **Short description of the project.**
 - Key feature 1
 - Key feature 2
 
-### 📦 [Project Name](https://github.com/shubham-bansal96/project-link)
-**Short description of the project.**
-- Key feature 1
-- Key feature 2
-
----
-
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=shubham-bansal96&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=shubham-bansal96&layout=compact&theme=radical)
+### 📦 [ms-url-shortner](https://github.com/shubham-bansal96/ms-url-shortner)
+**A lightweight URL Shortener microservice built in Go with Gin, designed for production-grade Kubernetes deployments.**
+- REST API with 8-character unique ID generation, in-memory caching, and input validation
+- Prometheus metrics, rate limiting middleware, structured logging (Logrus), and pprof profiling
+- Multi-stage Docker build and Helm chart with HPA, ServiceMonitor, and configurable replicas
+- Swagger-documented API with comprehensive unit tests and Makefile automation
 
 ---
 
 ## 🤝 Let's Connect!
 
-- 💼 **LinkedIn:** [Your Name](https://www.linkedin.com/in/shubham-bansal-b5b799129/)
+- 💼 **LinkedIn:** [Shubham Bansal](https://www.linkedin.com/in/shubham-bansal-b5b799129/)
