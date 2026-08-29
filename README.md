@@ -34,10 +34,12 @@
 
 ## 📚 Personal Projects
 
-### 📦 [Project Name](https://github.com/shubham-bansal96/project-link)
-**Short description of the project.**
-- Key feature 1
-- Key feature 2
+### 📦 [doc-qa](https://github.com/shubham-bansal96/doc-qa)
+**An intelligent Retrieval Augmented Generation (RAG) system built in Go using LangChainGo — ingest documents and ask natural language questions with AI-generated answers grounded in your data.**
+- **Multi-format ingestion** — supports `.txt`, `.md`, `.csv`, `.html`, `.pdf`, and images (`.png`, `.jpg`, `.gif`, `.webp`) with hybrid PDF handling and Tesseract OCR + Llava vision model fallback
+- **Local-first architecture** — embeddings run entirely on-device via Ollama (`nomic-embed-text`); Qdrant vector DB for similarity search with cosine distance scoring
+- **Conversational memory** — session-based follow-up questions with automatic query rewriting for better retrieval context
+- **Source attribution** — every answer includes references to the source document chunks used, powered by Anthropic Claude
 
 ### 📦 [ms-url-shortner](https://github.com/shubham-bansal96/ms-url-shortner)
 **A lightweight URL Shortener microservice built in Go with Gin, designed for production-grade Kubernetes deployments.**
